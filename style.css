@@ -5,17 +5,17 @@
 }
 
 body {
-  min-width: 1600px;
+  min-width: 1440px;
   display: grid;
   grid-template-rows: auto 1fr auto;
   height: 100vh;
   margin: 0;
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 150%;
-  color: #131313;
+  line-height: 23px;
+  color: #40393B;
 }
 
 *,
@@ -69,7 +69,29 @@ ul {
 
 .center {
   margin: 0 auto;
-  width: 1400px;
+  width: 1210px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.catalogue__title {
+  font-family: 'Merriweather', serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 62px;
+  line-height: 78px;
+  color: #59313B;
+}
+
+.catalogue__item-title {
+  font-size: 22px;
+  line-height: 28px;
+  color: #40393B;
+}
+
+.catalogue__view-more a {
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .visually-hidden {

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <title>Интернет-магазин букетов Floral Boutique</title>
+</head>
+<body>
+  <header class="main-header">
+    <nav class="navigation center">
+      <a href="#">
+        <img src="img/logo.svg" width="177" height="17" alt="Логотип интернет-магазина цветов Floral Boutique">
+      </a>
+      <ul class="navigation__site-nav-list">
+        <li class="navigation__site-nav-item">
+          <a href="#">Каталог</a>
+        </li>
+        <li class="navigation__site-nav-item">
+          <a href="#">Подписка</a>
+        </li>
+        <li class="navigation__site-nav-item">
+          <a href="#">Отзывы</a>
+        </li>
+        <li class="navigation__site-nav-item">
+          <a href="#">Контакты</a>
+        </li>
+      </ul>
+      <ul class="navigation__user-nav-list">
+        <li class="navigation__user-nav-item">
+          <a href="tel:89239995566">+ 7 (923) 999 55 66</a>
+        </li>
+        <li class="navigation__user-nav-item">
+          <a href="#">
+            <img src="img/bag-icon.svg" width="20" height="24" alt="Перейти в корзину">
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="catalogue">
+      <div class="catalogue__inner center">
+        <header class="catalogue__header">
+          <h1 class="catalogue__title">Каталог</h1>
+          <img src="img/banner-back.png" width="1240" height="350" alt="Красочная фотография розовых хризантем от Floral Boutique">
+        </header>
+        <div class="catalogue__filters">
+          <div class="catalogue__filter-container">
+            <label class="visually-hidden" for="category">Выбрать категорию букета</label>
+            <select id="category">
+              <option>Категория</option>
+            </select>
+          </div>
+          <div class="catalogue__filter-container">
+            <label class="visually-hidden" for="type">Выбрать тип букета</label>
+            <select id="type">
+              <option>Цветы</option>
+            </select>
+          </div>
+          <div class="catalogue__filter-container">
+            <label class="visually-hidden" for="price">Выбрать категорию букета</label>
+            <select id="price">
+              <option>Цена</option>
+            </select>
+          </div>
+        </div>
+        <ul class="catalogue__list">
+          <li class="catalogue__item">
+            <article class="catalogue__card">
+              <h2 class="catalogue__item-title">Букет «Весна»</h2>
+              <img src="img/card/photo-1.jpg" width="320" height="270" alt="Букет «Весна»">
+              <p class="catalogue__item-price">1 500 ₽</p>
+              <a href="#" class="catalogue__item-order button">Заказать</a>
+            </article>
+          </li>
+          <li class="catalogue__item">
+            <article class="catalogue__card">
+              <h2 class="catalogue__item-title">Букет «Признание»</h2>
+              <img src="img/card/photo-2.jpg" width="320" height="270" alt="Букет «Признание»">
+              <p class="catalogue__item-price">3 500 ₽</p>
+              <a href="#" class="catalogue__item-order button">Заказать</a>
+            </article>
+          </li>
+          <li class="catalogue__item">
+            <article class="catalogue__card">
+              <h2 class="catalogue__item-title">Букет «Сюрприз»</h2>
+              <img src="img/card/photo-3.jpg" width="320" height="270" alt="Букет «Сюрприз»">
+              <p class="catalogue__item-price">2 700 ₽</p>
+              <a href="#" class="catalogue__item-order button">Заказать</a>
+            </article>
+          </li>
+          <li class="catalogue__item">
+            <article class="catalogue__card">
+              <h2 class="catalogue__item-title">Букет «Апрель»</h2>
+              <img src="img/card/photo-4.jpg" width="320" height="270" alt="Букет «Апрель»">
+              <p class="catalogue__item-price">2 600 ₽</p>
+              <a href="#" class="catalogue__item-order button">Заказать</a>
+            </article>
+          </li>
+          <li class="catalogue__item">
+            <article class="catalogue__card">
+              <h2 class="catalogue__item-title">Букет «Сухоцветы»</h2>
+              <img src="img/card/photo-5.jpg" width="320" height="270" alt="Букет «Сухоцветы»">
+              <p class="catalogue__item-price">1 800 ₽</p>
+              <a href="#" class="catalogue__item-order button">Заказать</a>
+            </article>
+          </li>
+          <li class="catalogue__item">
+            <article class="catalogue__card">
+              <h2 class="catalogue__item-title">Букет «Нежность»</h2>
+              <img src="img/card/photo-6.jpg" width="320" height="270" alt="Букет «Нежность»">
+              <p class="catalogue__item-price">2 900 ₽</p>
+              <a href="#" class="catalogue__item-order button">Заказать</a>
+            </article>
+          </li>
+          <li class="catalogue__item">
+            <article class="catalogue__card">
+              <h2 class="catalogue__item-title">Букет «Яркость»</h2>
+              <img src="img/card/photo-7.jpg" width="320" height="270" alt="Букет «Яркость»">
+              <p class="catalogue__item-price">3 300 ₽</p>
+              <a href="#" class="catalogue__item-order button">Заказать</a>
+            </article>
+          </li>
+          <li class="catalogue__item">
+            <article class="catalogue__card">
+              <h2 class="catalogue__item-title">Букет «Любовь»</h2>
+              <img src="img/card/photo-8.jpg" width="320" height="270" alt="Букет «Любовь»">
+              <p class="catalogue__item-price">4 200 ₽</p>
+              <a href="#" class="catalogue__item-order button">Заказать</a>
+            </article>
+          </li>
+          <li class="catalogue__item">
+            <article class="catalogue__card">
+              <h2 class="catalogue__item-title">Букет «Ласка»</h2>
+              <img src="img/card/photo-9.jpg" width="320" height="270" alt="Букет «Ласка»">
+              <p class="catalogue__item-price">4 800 ₽</p>
+              <a href="#" class="catalogue__item-order button">Заказать</a>
+            </article>
+          </li>
+        </ul>
+        <div class="catalogue__view-more">
+          <a href="#">Смотреть ещё</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="main-footer">
+    <div class="main-footer__inner center">
+      <a href="#">
+        <img src="img/logo.svg" width="177" height="17" alt="Логотип интернет-магазина цветов Floral Boutique">
+      </a>
+      <ul class="main-footer__site-nav-list">
+        <li class="main-footer__site-nav-item">
+          <a href="#">Каталог</a>
+        </li>
+        <li class="main-footer__site-nav-item">
+          <a href="#">Подписка</a>
+        </li>
+        <li class="main-footer__site-nav-item">
+          <a href="#">Отзывы</a>
+        </li>
+        <li class="main-footer__site-nav-item">
+          <a href="#">Контакты</a>
+        </li>
+      </ul>
+      <ul class="main-footer__socials-list">
+        <li class="main-footer__socials-item">
+          <a href="#">
+            <img src="img/instagram.svg" width="20" height="20" alt="Перейти на нашу страницу в Instagram">
+          </a>
+        </li>
+        <li class="main-footer__socials-item">
+          <a href="#">
+            <img src="img/facebook.svg" width="20" height="20" alt="Перейти на нашу страницу в Facebook">
+          </a>
+        </li>
+        <li class="main-footer__socials-item">
+          <a href="#">
+            <img src="img/pinterest.svg" width="20" height="20" alt="Перейти на нашу страницу в Pinterest">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
